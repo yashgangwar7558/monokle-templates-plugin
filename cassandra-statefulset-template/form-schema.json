@@ -1,0 +1,31 @@
+{
+    "type": "object",
+    "required": [
+      "name",
+      "replicas"
+    ],
+    "properties": {
+      "name": {
+        "type": "string",
+        "default": "cassandra"
+      },
+      "namespace": {
+        "type": "string"
+      },
+      "replicas": {
+        "type": "number"
+      },
+      "cluster_name": {
+        "type": "string",
+        "default": "K8Demo"
+      },
+      "datacenter_name": {
+        "type": "string",
+        "default": "datacenter1-K8Demo"
+      },
+      "rack_name": {
+        "type": "string",
+        "default": "rack1-K8Demo"
+      }
+    }
+  }

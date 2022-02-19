@@ -1,0 +1,27 @@
+{
+    "name": {
+      "ui:title": "Name",
+      "ui:help": "The name of the generated service and deployment"
+    },
+    "namespace": {
+      "ui:title": "Namespace",
+      "ui:help": "The target namespace for the generated service and deployment",
+      "ui:widget": "namespaceSelection"
+    },
+    "replicas": {
+      "ui:title": "Replicas",
+      "ui:help": "Number of pod replicas"
+    },
+    "cluster_name": {
+      "ui:title": "Cassandra Cluster Name",
+      "ui:help": "Name of the cluster"
+    },
+    "datacenter_name": {
+      "ui:title": "Cassandra DataCenter Name",
+      "ui:help": "Name of the Datacenter where data will be stored. It can be anything, for example datacenter1"
+    },
+    "rack_name": {
+      "ui:title": "Cassandra Rack Name",
+      "ui:help": "Name of the Rack where datacenter will be created. It can be anything, for example rack1"
+    }
+  }

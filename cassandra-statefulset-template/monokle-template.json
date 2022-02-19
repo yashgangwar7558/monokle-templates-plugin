@@ -1,0 +1,24 @@
+{
+    "name": "Deploy Cassandra with StatefulSet",
+    "id": "com.github.yashgangwar7558.plugin.templates.cassandra-statefulset-template",
+    "author": "Yash Gangwar",
+    "version": "1.0.0",
+    "description": "Creates a Deployemnt, Service and Storage Class for Cassandra database using Statefulsets",
+    "repository" : "",
+    "type": "vanilla",
+    "forms": [
+      {
+        "name": "Deployment Settings",
+        "description": "Specify the no. of replicas, namespace, cluster name and related settings of database",
+        "schema": "form-schema.json",
+        "uiSchema": "form-ui-schema.json"
+      }
+    ],
+    "manifests": [
+      {
+        "filePath": "template.yaml"
+      }
+    ],
+    "resultMessage": "Cassandra database deployed successfully",
+    "helpUrl": "https://github.com/yashgangwar7558/monokle-templates-plugin"
+}
