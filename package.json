@@ -1,15 +1,17 @@
 {
-    "name": "template_plugins",
-    "description": "Custom templates plugin",
-    "version": "1.0.0",
-    "author": "Yash_Gangwar ",
-    "repository": "https://github.com/yashgangwar7558/monokle-templates-plugin",
-    "monoklePlugin": {
-      "modules": [
-        {
-          "type": "template",
-          "path": "basic-pod-template"
-        }
-      ]
-    }
+  "name": "template_plugins",
+  "description": "Custom templates plugin",
+  "version": "1.0.0",
+  "author": "Yash_Gangwar",
+  "repository": "https://github.com/yashgangwar7558/monokle-templates-plugin",
+  "monoklePlugin": {
+    "id": "com.github.yashgangwar7558.plugin.templates.basic-pod-template",
+    "helpUrl": "https://github.com/yashgangwar7558/monokle-templates-plugin",
+    "modules": [
+      {
+        "type": "template",
+        "path": "basic-pod-template"
+      }
+    ]
+  }
 }
